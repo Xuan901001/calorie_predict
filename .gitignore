@@ -1,0 +1,32 @@
+# 虛擬環境資料夾（你的應該是 calorie_env）
+calorie_env/
+venv/
+.env/
+
+# Python 暫存與編譯檔
+__pycache__/
+*.py[cod]
+*.so
+
+# VSCode 設定
+.vscode/
+
+# Jupyter Notebook checkpoints（如果你有用）
+.ipynb_checkpoints/
+
+# 日誌與快取
+*.log
+*.cache
+
+# 資料檔案與模型檔
+*.csv
+*.tsv
+*.xlsx
+*.pkl
+*.h5
+*.joblib
+*.npy
+
+# TensorBoard 或其他輸出資料夾
+runs/
+output/
